@@ -1,0 +1,124 @@
+
+
+body {
+    font-size: 20px 
+    font-family: 'Neuton', serif;
+    color: white;
+    font-family: 20px;
+    margin: 0;
+}
+
+body {
+    border: 2px solid white;
+    padding: 100px 
+}
+/* 1 rem is the default font size for p which is 16px */
+
+body {
+    background:black;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: grey;
+    color: white
+}
+
+.heading {
+    padding: 60px;
+    text-align: center;
+} 
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+h1 {
+    font-size: 2rem;
+}
+
+
+.images {
+
+    display: block;
+    padding: 20px;
+    text-align: right;
+    text-decoration: none; 
+    white-space: wrap;
+}
+
+.images img {
+    max-width: 100px;
+    margin-top: 1px;
+} 
+
+.images img
+{
+    padding: 30px 20px;
+}
+
+.images img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+.introduction {
+    disply: flex
+    height: 300px;
+    width: 160px;
+    flex-wrap: wrap;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 1px;
+    outline-offset: 4px;
+    place-content: flex-end right;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+                            
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: grey;
+
+}
+
+li {
+    color: #ccc;
+    }
+p {
+    color: white;
+}
+
+li a {
+    display: block; 
+    color: white;
+    padding: 8px 32px;
+    text-decoration: none;
+  }
+
+li {
+    text-align: left;
+    border-bottom: 1px solid #555
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Change link color on hover */ 
+li a:hover:(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
